@@ -11,3 +11,13 @@ function ispisiRijec (rijec) {
  }
 
 ispisiRijec("slon");
+//OP
+function ispisiParne(broj) {
+    if (broj >= 2) {
+      if (broj % 2 === 0) {
+        console.log(broj);
+      }
+      ispisiParne(broj - 1); 
+    }
+  }
+  ispisiParne(10);
